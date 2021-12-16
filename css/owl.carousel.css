@@ -117,8 +117,8 @@
 	transition: all 0.3s ease-in-out; 
 	-webkit-transition: all 0.3s ease-in-out;
 }
-.owl-theme .owl-controls .owl-buttons .owl-prev:before {content: "\f104";}
-.owl-theme .owl-controls .owl-buttons .owl-next:before {content: "\f105";}
+.owl-theme .owl-controls .owl-buttons .owl-prev:before {content: "ᐊ";}
+.owl-theme .owl-controls .owl-buttons .owl-next:before {content: "ᐅ";}
 .owl-theme .owl-controls .owl-buttons div:hover:before {color:#333;}
 
 
