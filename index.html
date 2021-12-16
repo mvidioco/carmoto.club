@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+	<meta charset="utf-8">
+	<title>White | responsive bootstrap3 html5 one page template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="images/favicon.ico">
+    
+	<!-- CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" />
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/owl.carousel.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+    
+	<!-- FONTS -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500italic,700,500,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">	
+    
+	<!-- SCRIPTS -->
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if IE]><html class="ie" lang="en"> <![endif]-->
+	
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+	<script src="js/jquery.nicescroll.min.js" type="text/javascript"></script>
+	<script src="js/superfish.min.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+	<script src="js/owl.carousel.js" type="text/javascript"></script>
+	<script src="js/animate.js" type="text/javascript"></script>
+	<script src="js/jquery.BlackAndWhite.js"></script>
+	<script src="js/myscript.js" type="text/javascript"></script>
+	<script>
+		
+		//PrettyPhoto
+		jQuery(document).ready(function() {
+			$("a[rel^='prettyPhoto']").prettyPhoto();
+		});
+		
+		//BlackAndWhite
+		$(window).load(function(){
+			$('.client_img').BlackAndWhite({
+				hoverEffect : true, // default true
+				// set the path to BnWWorker.js for a superfast implementation
+				webworkerPath : false,
+				// for the images with a fluid width and height 
+				responsive:true,
+				// to invert the hover effect
+				invertHoverEffect: false,
+				// this option works only on the modern browsers ( on IE lower than 9 it remains always 1)
+				intensity:1,
+				speed: { //this property could also be just speed: value for both fadeIn and fadeOut
+					fadeIn: 300, // 200ms for fadeIn animations
+					fadeOut: 300 // 800ms for fadeOut animations
+				},
+				onImageReady:function(img) {
+					// this callback gets executed anytime an image is converted
+				}
+			});
+		});
+		
+	</script>
+	
+</head>
+<body>
+
+<!-- PRELOADER -->
+<img id="preloader" src="images/preloader.gif" alt="" />
+<!-- //PRELOADER -->
+<div class="preloader_hide">
+
+	<!-- PAGE -->
+	<div id="page">
+	
+		<!-- HEADER -->
+		<header>
+			
+			<!-- MENU BLOCK -->
+			<div class="menu_block">
+			
+				<!-- CONTAINER -->
+				<div class="container clearfix">
+					
+					<!-- LOGO -->
+					<div class="logo pull-left">
+						<a href="index.html" >
+                            <span class="b1">c</span>
+                            <span class="b2">a</span>
+                            <span class="b3">r</span>
+                            <span class="b4">m</span>
+                            <span class="b5">o</span>
+                            <span class="b6">t</span>
+                            <span class="b7">o</span>
+                        </a>
+					</div><!-- //LOGO -->
+					
+					<!-- SEARCH FORM -->
+					<div id="search-form" class="pull-right">
+						<form method="get" action="#">
+							<input type="text" name="Search" value="Search" onFocus="if (this.value == 'Search') this.value = '';" onBlur="if (this.value == '') this.value = 'Search';" />
+						</form>
+					</div><!-- SEARCH FORM -->
+					
+					<!-- MENU -->
+					<div class="pull-right">
+						<nav class="navmenu center">
+							<ul>
+								<li class="first active scroll_btn"><a href="#home" >Главная</a></li>
+								<li class="scroll_btn"><a href="#about" >Модели</a></li>
+								<li class="scroll_btn"><a href="#projects" >Галерея</a></li>
+								<li class="scroll_btn"><a href="#news" >Отзывы</a></li>
+								<li class="scroll_btn last"><a href="#contacts" >Контакты</a></li>
+                                <li class="scroll_btn last"><a href="#contacts" >О нас</a></li>
+				
+							</ul>
+						</nav>
+					</div><!-- //MENU -->
+				</div><!-- //MENU BLOCK -->
+			</div><!-- //CONTAINER -->
+		</header><!-- //HEADER -->
+		
+		
+		<!-- HOME -->
+		<section id="home" class="padbot0">
+				
+			<!-- TOP SLIDER -->
+			<div class="flexslider top_slider">
+				<ul class="slides">
+					
+                        <!-- кнопка 
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
+                        -->
+					<li class="slide2">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay6 FromLeft">Автомобили</p>
+							<p class="title2 captionDelay4 FromLeft"></p>
+							<p class="title3 captionDelay2 FromLeft"></p>
+							<p class="title4 captionDelay7 FromLeft">Автомобиль может быть не только средством передвижения. Особенно, если речь идет о ретро машинах. Правильное хранение таких экземпляров превращает их в настоящий эксклюзив, который с годами становится только лучше. Некоторые старые модели вызывают восхищение и бьют рекорды своим малым тиражом.</p>
+						</div>
+                        <!-- кнопка 
+						<a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
+                        -->
+					</li>
+					<li class="slide3">
+						<div class="flex_caption1">
+							<p class="title1 captionDelay1 FromBottom">Мотоциклы</p>
+							<p class="title2 captionDelay2 FromBottom"></p>
+							<p class="title3 captionDelay3 FromBottom"></p>
+							<p class="title4 captionDelay5 FromBottom">Мотоцикл – это не транспорт, не средство достижения цели, не инструмент и не куча железа, нуждающаяся в постоянном уходе. Мотоцикл – это верный друг и товарищ, который спасёт из любой беды, если вы научитесь правильно с ним обращаться.</p>
+						</div>
+						<!-- кнопка 
+                        <a class="slide_btn FromRight" href="javascript:void(0);" >Read More</a>
+						-->
+						<!-- VIDEO BACKGROUND -->
+						<a id="P2" class="player" data-property="{videoURL:'tDvBwPzJ7dY',containment:'.top_slider .slide3',autoPlay:true, mute:true, startAt:0, opacity:1}" ></a>
+						<!-- //VIDEO BACKGROUND -->
+					</li>
+				</ul>
+			</div>
+			<div id="carousel">
+				<ul class="slides">
+					
+					<li><img src="images/slider/slide2_bg.jpg" alt="" /></li>
+					<li><img src="images/slider/slide3_bg.jpg" alt="" /></li>
+				</ul>
+			</div><!-- //TOP SLIDER -->
+		</section><!-- //HOME -->
+		
+		
+		<!-- ABOUT -->
+		<section id="about">
+			
+			<!-- SERVICES -->
+			<div class="services_block padbot40" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				<!-- CONTAINER -->
+				<div class="container">
+				
+					<!-- ROW -->
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Ford-M1</b>Чёрный Ворон</p>
+								<span>Если бы я не боялся своего редактора, то начал бы сейчас рассказ про этот автомобиль с эпитетов «легендарный» и «культовый». Но шеф эти шаблоны вполне справедливо презирает, поэтому я их произносить не буду. Хотя именно эту машину они описывают особенно точно. Но нет, рисковать не стоит, могу получить по шее. И даже не стану вспоминать, что этот автомобиль и есть тот самый зловещий «чёрный воронок», в котором в своё время советские граждане частенько уезжали на десять лет без права переписки. Потому что это тоже шаблонно и банально. Давайте лучше подойдём к этой машине с другой стороны – со стороны техники. </span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Citroen</b> DS</p>
+								<span>Британская компания Electrogenic, занимающаяся конверсией классических машин с ДВС в электромобили, сумела «поженить» сложную гидравлическую систему Citroen DS с электрической силовой установкой.Электрическими рестомодами (их ещё называют электромодами) сегодня никого не удивишь – в одной только Англии работают десятки фирм, вроде Lunaz Design, готовые превратить ваш старенький Rolls-Royce или Land Rover в электромобиль, чтобы вы не испытывали чувство стыда за антропогенные выбросы СО2, которые, как принято считать в развитых странах, вызывают парниковый эффект и глобальное потепление, ведущее нашу планету к экологической катастрофе.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Pontiac</b> Catalina</p>
+								<span>Любить «золотые 60-е» можно независимо от возраста, и помнить ту эпоху лично для этого совсем необязательно. Ведь главное – это настроение! Элвис, Желтая подводная лодка, фильмы Серджио Леоне и, конечно же, машины – огромные, мощные, стильные, порой нелепые. Воплощение свободы и американской мечты.</span>
+							</a>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-ss-12 margbot30">
+							<a class="services_item" href="javascript:void(0);" >
+								<p><b>Москвич</b>-412</p>
+								<span>Владение ретро-автомобилем не обязательно должно быть дорогим увлечением. Завести «машину с изюминкой» для выездов выходного дня и участия в интересных ретро-мероприятиях можно за весьма умеренные деньги и без вложений в тотальную реставрацию. Сохранившееся по пыльным гаражам и дачным сараям наследие отечественного автопрома пока еще позволяет обзавестись олдтаймером «лоукост-уровня» практически любому желающему.</span>
+							</a>
+						</div>
+					</div><!-- //ROW -->
+				</div><!-- //CONTAINER -->
+			</div><!-- //SERVICES -->
+		</section><!-- //ABOUT -->
+		
+		
+		<!-- галерея -->
+		<section id="projects" class="padbot20">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>Г</b>алерея</h2>
+			</div><!-- //CONTAINER -->
+			
+				
+			<div class="projects-wrapper" data-appear-top-offset="-200" data-animated="fadeInUp">
+				<!-- PROJECTS SLIDER -->
+				<div class="owl-demo owl-carousel projects_slider">
+					
+					<!-- work1 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/1.jpg" alt="" />
+								<a class="zoom" href="images/works/1.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="images/works/1.jpg" rel="prettyPhoto[portfolio1]" >Чёрный ворон</a>
+									
+								</div>
+							</div>
+						</div>
+					</div><!-- //work1 -->
+					
+					<!-- work2 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/2.jpg" alt="" />
+								<a class="zoom" href="images/works/2.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="images/works/2.jpg" rel="prettyPhoto[portfolio1]" >Citroen DS</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work2 -->
+					
+					<!-- work3 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/3.jpg" alt="" />
+								<a class="zoom" href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="images/works/3.jpg" rel="prettyPhoto[portfolio1]" >Pontiac Catalina</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work3 -->
+					
+					<!-- work4 -->
+					<div class="item">
+						<div class="work_item">
+							<div class="work_img">
+								<img src="images/works/4.jpg" alt="" />
+								<a class="zoom" href="images/works/4.jpg" rel="prettyPhoto[portfolio1]" ></a>
+							</div>
+							<div class="work_description">
+								<div class="work_descr_cont">
+									<a href="images/works/4.jpg" rel="prettyPhoto[portfolio1]" >Москвич-412</a>
+								</div>
+							</div>
+						</div>
+					</div><!-- //work4 -->
+					
+				</div><!-- //PROJECTS SLIDER -->
+			</div>
+			
+	
+		</section><!-- //PROJECTS -->
+		
+		
+		
+		
+		
+		<!-- отзывы -->
+		<section id="news">
+		
+			<!-- CONTAINER -->
+			<div class="container">
+				<h2><b>О</b>тзывы</h2>
+				
+				<!-- TESTIMONIALS -->
+				<div class="testimonials" data-appear-top-offset="-200" data-animated="fadeInUp">
+						
+					<!-- TESTIMONIALS SLIDER -->
+					<div class="owl-demo owl-carousel testim_slider">
+						
+						<!-- TESTIMONIAL1 -->
+						<div class="item">
+							<i><div class="testim_content">“Спасибо Вам большое, мой любимый блог. Много всего увлекательного и познавательного.”</div></i>
+							<div class="testim_author">—  Анна Балашова, <b>Авто-любитель</b></div>
+						</div><!-- TESTIMONIAL1 -->
+						
+						<!-- TESTIMONIAL2 -->
+						<div class="item">
+							<i><div class="testim_content">“Круто, ребзя, вдохновили на тюнинг моего коня”</div></i>
+							<div class="testim_author">—  Валерий Третьяков, <b>Байкер</b></div>
+						</div><!-- TESTIMONIAL2 -->
+						
+						<!-- TESTIMONIAL3 -->
+						<div class="item">
+							<i><div class="testim_content">“Езжу на фуре пятёрочка. Читаю постоянно ваш блог. Мечтаю о "Чёрном вороне" ”</div></i>
+							<div class="testim_author">—  Пётр Савельев, <b>Дальнобойщик</b></div>
+						</div><!-- TESTIMONIAL3 -->
+					</div><!-- TESTIMONIALS SLIDER -->
+				</div><!-- //TESTIMONIALS -->
+				
+
+			</div><!-- //CONTAINER -->
+		</section><!-- //отзывы -->
+	</div><!-- //PAGE -->
+	
+	<!-- CONTACTS -->
+	<section id="contacts">
+	</section><!-- //CONTACTS -->
+	
+	<!-- FOOTER -->
+	<footer>
+			
+		<!-- CONTAINER -->
+		<div class="container">
+			
+			<!-- ROW -->
+			<div class="row" data-appear-top-offset="-200" data-animated="fadeInUp">
+				
+				
+				
+				<div class="col-lg-4 col-md-4 col-sm-6 padbot30 foot_about_block">
+					<h4><b>О</b> нас</h4>
+					<p>Мы всегда рады единомышленникам - подписывайтесь, общайтесь, делитесь эмоциями и участвуйте в розыгрышах. CARMOTO.CLUB - это стиль жизни.</p>
+				
+					<ul class="social">
+						<li><a href="javascript:void(0);" ><i class="fa fa-twitter"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-facebook"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="javascript:void(0);" ><i class="fa fa-pinterest-square"></i></a></li>
+					
+					</ul>
+				</div>
+				
+				<div class="respond_clear"></div>
+				
+				<div class="col-lg-4 col-md-4 padbot30">
+					<h4><b>Напиши</b> нам</h4>
+					
+					<!-- CONTACT FORM -->
+					<div class="span9 contact_form">
+						<div id="note"></div>
+						<div id="fields">
+							<form id="contact-form-face" class="clearfix" action="#">
+								<input type="text" name="Имя" value="Name" onFocus="if (this.value == 'Name') this.value = '';" onBlur="if (this.value == '') this.value = 'Name';" />
+								<textarea name="message" onFocus="if (this.value == 'Message') this.value = '';" onBlur="if (this.value == '') this.value = 'Message';">Message</textarea>
+								<input class="contact_btn" type="submit" value="отправить" />
+							</form>
+						</div>
+					</div><!-- //CONTACT FORM -->
+				</div>
+			</div><!-- //ROW -->
+		</div><!-- //CONTAINER -->
+	</footer><!-- //FOOTER -->
+	
+	
+
+
+</div>
+</body>
+</html>
